@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-12-19" view-index="1" gantt-divider-location="662" resource-divider-location="300" version="3.2.3230" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-11" view-index="1" gantt-divider-location="662" resource-divider-location="300" version="3.2.3230" locale="es_ES">
     <description/>
-    <view zooming-state="default:4" id="gantt-chart">
+    <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="367" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="138" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="141" order="2"/>
@@ -259,7 +259,7 @@
         <allocation task-id="27" resource-id="10" function="3" responsible="false" load="15.0"/>
         <allocation task-id="28" resource-id="10" function="4" responsible="false" load="25.0"/>
         <allocation task-id="30" resource-id="10" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="32" resource-id="10" function="2" responsible="false" load="15.0"/>
+        <allocation task-id="32" resource-id="10" function="1" responsible="true" load="35.0"/>
         <allocation task-id="33" resource-id="10" function="5" responsible="false" load="10.0"/>
         <allocation task-id="35" resource-id="10" function="2" responsible="false" load="15.0"/>
         <allocation task-id="36" resource-id="10" function="2" responsible="false" load="15.0"/>
@@ -272,8 +272,8 @@
         <allocation task-id="49" resource-id="10" function="2" responsible="false" load="15.0"/>
         <allocation task-id="42" resource-id="10" function="1" responsible="true" load="35.0"/>
         <allocation task-id="43" resource-id="10" function="2" responsible="false" load="15.0"/>
-        <allocation task-id="1" resource-id="11" function="5" responsible="false" load="10.0"/>
-        <allocation task-id="2" resource-id="11" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="1" resource-id="11" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="2" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="51" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="4" resource-id="11" function="3" responsible="false" load="15.0"/>
         <allocation task-id="5" resource-id="11" function="3" responsible="false" load="15.0"/>
@@ -296,7 +296,7 @@
         <allocation task-id="27" resource-id="11" function="1" responsible="true" load="35.0"/>
         <allocation task-id="28" resource-id="11" function="5" responsible="false" load="10.0"/>
         <allocation task-id="30" resource-id="11" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="32" resource-id="11" function="1" responsible="true" load="35.0"/>
+        <allocation task-id="32" resource-id="11" function="5" responsible="false" load="10.0"/>
         <allocation task-id="33" resource-id="11" function="3" responsible="false" load="15.0"/>
         <allocation task-id="36" resource-id="11" function="1" responsible="true" load="35.0"/>
         <allocation task-id="37" resource-id="11" function="3" responsible="false" load="15.0"/>
@@ -308,6 +308,7 @@
         <allocation task-id="49" resource-id="11" function="1" responsible="true" load="35.0"/>
         <allocation task-id="42" resource-id="11" function="3" responsible="false" load="15.0"/>
         <allocation task-id="43" resource-id="11" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="35" resource-id="11" function="1" responsible="true" load="35.0"/>
         <allocation task-id="1" resource-id="12" function="2" responsible="false" load="15.0"/>
         <allocation task-id="2" resource-id="12" function="2" responsible="false" load="15.0"/>
         <allocation task-id="51" resource-id="12" function="1" responsible="true" load="35.0"/>
@@ -333,7 +334,7 @@
         <allocation task-id="30" resource-id="12" function="5" responsible="false" load="10.0"/>
         <allocation task-id="32" resource-id="12" function="3" responsible="false" load="15.0"/>
         <allocation task-id="33" resource-id="12" function="2" responsible="false" load="15.0"/>
-        <allocation task-id="35" resource-id="12" function="3" responsible="true" load="15.0"/>
+        <allocation task-id="35" resource-id="12" function="3" responsible="false" load="15.0"/>
         <allocation task-id="36" resource-id="12" function="3" responsible="false" load="15.0"/>
         <allocation task-id="37" resource-id="12" function="4" responsible="false" load="25.0"/>
         <allocation task-id="38" resource-id="12" function="1" responsible="true" load="35.0"/>
@@ -368,10 +369,10 @@
         <allocation task-id="27" resource-id="14" function="4" responsible="false" load="25.0"/>
         <allocation task-id="28" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="30" resource-id="14" function="1" responsible="true" load="35.0"/>
-        <allocation task-id="32" resource-id="14" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="32" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="33" resource-id="14" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="35" resource-id="14" function="5" responsible="false" load="10.0"/>
-        <allocation task-id="36" resource-id="14" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="35" resource-id="14" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="36" resource-id="14" function="4" responsible="false" load="25.0"/>
         <allocation task-id="37" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="38" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="40" resource-id="14" function="1" responsible="true" load="35.0"/>
@@ -381,8 +382,8 @@
         <allocation task-id="49" resource-id="14" function="3" responsible="false" load="15.0"/>
         <allocation task-id="42" resource-id="14" function="5" responsible="false" load="10.0"/>
         <allocation task-id="43" resource-id="14" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="1" resource-id="13" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="2" resource-id="13" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="13" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="2" resource-id="13" function="5" responsible="false" load="10.0"/>
         <allocation task-id="51" resource-id="13" function="5" responsible="false" load="10.0"/>
         <allocation task-id="4" resource-id="13" function="2" responsible="false" load="15.0"/>
         <allocation task-id="5" resource-id="13" function="2" responsible="false" load="15.0"/>
@@ -405,10 +406,10 @@
         <allocation task-id="27" resource-id="13" function="5" responsible="false" load="10.0"/>
         <allocation task-id="28" resource-id="13" function="3" responsible="false" load="15.0"/>
         <allocation task-id="30" resource-id="13" function="2" responsible="false" load="15.0"/>
-        <allocation task-id="32" resource-id="13" function="4" responsible="false" load="15.0"/>
+        <allocation task-id="32" resource-id="13" function="4" responsible="false" load="25.0"/>
         <allocation task-id="33" resource-id="13" function="1" responsible="true" load="35.0"/>
-        <allocation task-id="35" resource-id="13" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="36" resource-id="13" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="35" resource-id="13" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="36" resource-id="13" function="5" responsible="false" load="10.0"/>
         <allocation task-id="37" resource-id="13" function="1" responsible="true" load="35.0"/>
         <allocation task-id="38" resource-id="13" function="3" responsible="false" load="15.0"/>
         <allocation task-id="40" resource-id="13" function="4" responsible="false" load="25.0"/>
