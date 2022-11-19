@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-11" view-index="1" gantt-divider-location="662" resource-divider-location="300" version="3.2.3230" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-01-09" view-index="0" gantt-divider-location="223" resource-divider-location="300" version="3.2.3230" locale="es_ES">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="367" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="138" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="141" order="2"/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="117" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="44" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="46" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#ff33ff #9999ff #0000cc #009900 #99ff99 #ffcc00 #ff0000 #ff6666 #ff9999 #ffcccc]]>
         </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="210" order="0"/>
-        <field id="1" name="Función" width="86" order="1"/>
+        <field id="0" name="Nombre" width="206" order="0"/>
+        <field id="1" name="Función" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars base-id="es">
@@ -119,7 +119,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="16" name="1.Planteamendua" color="#9999ff" meeting="false" start="2022-10-11" duration="26" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+        <task id="16" name="1.Planteamendua" color="#9999ff" meeting="false" start="2022-10-11" duration="39" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="false">
             <depend id="18" type="2" difference="0" hardness="Strong"/>
             <task id="0" name="1.1Ekintza bakoitzaren jarduerak erabaki" color="#0000cc" meeting="false" start="2022-10-29" duration="3" complete="0" thirdDate="2022-11-02" thirdDate-constraint="0" expand="true">
                 <depend id="3" type="2" difference="0" hardness="Strong"/>
@@ -133,98 +133,188 @@
             <task id="51" name="1.2 Project scope egin" color="#9999ff" meeting="false" start="2022-10-11" duration="3" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true">
                 <depend id="8" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="3" name="1.3 Beharrezko materialak identifikatu" color="#0000cc" meeting="false" start="2022-11-02" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="3" name="1.3 Beharrezko materialak identifikatu" color="#0000cc" meeting="false" start="2022-11-09" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="10" type="2" difference="0" hardness="Strong"/>
                 <depend id="20" type="2" difference="0" hardness="Strong"/>
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
-                <depend id="27" type="2" difference="0" hardness="Strong"/>
-                <task id="4" name="1.3.1 Material teknologikoa" color="#0000cc" meeting="false" start="2022-11-02" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-                <task id="5" name="1.3.2 Material eszenografikoa" color="#0000cc" meeting="false" start="2022-11-02" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-                <task id="6" name="1.3.3 Bestelako material" color="#0000cc" meeting="false" start="2022-11-02" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="4" name="1.3.1 Material teknologikoa" color="#0000cc" meeting="false" start="2022-11-09" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="5" name="1.3.2 Material eszenografikoa" color="#0000cc" meeting="false" start="2022-11-09" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="6" name="1.3.3 Bestelako material" color="#0000cc" meeting="false" start="2022-11-09" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
             </task>
             <task id="7" name="1.4 Ekintza lekuak planteatu" color="#9999ff" meeting="false" start="2022-11-02" duration="3" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="26" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="8" name="1.5 Project Schedule egin" color="#0000cc" meeting="false" start="2022-10-29" duration="5" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="8" name="1.5 Project Schedule egin" color="#0000cc" meeting="false" start="2022-10-30" duration="5" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="10" type="2" difference="0" hardness="Strong"/>
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
                 <depend id="25" type="2" difference="0" hardness="Strong"/>
-                <task id="9" name="1.5.1 RASIC burutu" color="#0000cc" meeting="false" start="2022-10-29" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-                <task id="50" name="1.5.2 Rolak banatu" color="#0000cc" meeting="false" start="2022-10-29" duration="5" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="1.5.1 RASIC burutu" color="#0000cc" meeting="false" start="2022-10-30" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[ARRISKUA: ALTUA (larritasun txikia, probabilitate altua)
+Arriskuaren sailkapena: baliabide pertsonalekin erlazionatutakoa
+Arriskuaren definizioa: arduren deskonpentsazioa
+]]>
+                    </notes>
+                </task>
+                <task id="50" name="1.5.2 Rolak banatu" color="#0000cc" meeting="false" start="2022-10-30" duration="5" complete="0" thirdDate="2022-10-24" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="10" name="1.6 Bideragarritasun ekonomikoa ziurtatu" color="#9999ff" meeting="false" start="2022-11-06" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="10" name="1.6 Bideragarritasun ekonomikoa ziurtatu" color="#9999ff" meeting="false" start="2022-11-13" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="27" type="2" difference="0" hardness="Strong"/>
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="11" name="1.7 Arautegia finkatu" color="#0000cc" meeting="false" start="2022-11-05" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
-                <task id="12" name="1.7.1 Pertsona kopurua/txanda erabaki" color="#0000cc" meeting="false" start="2022-11-05" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-                <task id="13" name="1.7.2 Ekintza bakoitzaren iraupena finkatu" color="#0000cc" meeting="false" start="2022-11-05" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-                <task id="14" name="11.7.3 Joko bakoitzaren arauak finkatu" color="#0000cc" meeting="false" start="2022-11-05" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="1.7 Arautegia finkatu" color="#0000cc" meeting="false" start="2022-11-17" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+                <task id="12" name="1.7.1 Pertsona kopurua/txanda erabaki" color="#0000cc" meeting="false" start="2022-11-17" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="13" name="1.7.2 Ekintza bakoitzaren iraupena finkatu" color="#0000cc" meeting="false" start="2022-11-18" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="14" name="11.7.3 Joko bakoitzaren arauak finkatu" color="#0000cc" meeting="false" start="2022-11-19" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="15" name="1.8 Sariak erabaki" color="#9999ff" meeting="false" start="2022-11-04" duration="3" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="15" name="1.8 Sariak erabaki" color="#9999ff" meeting="false" start="2022-11-05" duration="3" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
         </task>
-        <task id="17" name="2 Antolamendua" color="#ff66ff" meeting="false" start="2022-11-02" duration="10" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="true">
+        <task id="17" name="2 Antolamendua" color="#ff66ff" meeting="false" start="2022-11-02" duration="16" complete="0" thirdDate="2022-12-01" thirdDate-constraint="0" expand="false">
             <depend id="18" type="2" difference="0" hardness="Strong"/>
-            <task id="20" name="2.1 Materialaren eskuragarritasuna ziurtatu" color="#ff33ff" meeting="false" start="2022-11-06" duration="3" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-            <task id="21" name="2.2 Galdetegia/probak prestatu" color="#ffcccc" meeting="false" start="2022-11-02" duration="3" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true">
-                <task id="22" name="2.2.1 Gai tematikoak finkatu" color="#ffcccc" meeting="false" start="2022-11-02" duration="3" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="2.1 Materialaren eskuragarritasuna ziurtatu" color="#ff33ff" meeting="false" start="2022-11-13" duration="3" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ALTUA (larritasun handia, probabilitate ertaina)
+Arriskuaren sailkapena: finantzekin lotutakoa
+Arriskuaren definizioa: material eza
+]]>
+                </notes>
             </task>
-            <task id="23" name="2.3 Ekitaldietako rolak banatu" color="#ff66ff" meeting="false" start="2022-11-07" duration="2" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
-            <task id="24" name="2.4 Sarien hornitzailea ziurtatu" color="#ff66ff" meeting="false" start="2022-11-04" duration="3" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
-            <task id="25" name="2.5 GANTT burutu" color="#ff66ff" meeting="false" start="2022-11-04" duration="3" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true">
+            <task id="21" name="2.2 Galdetegia/probak prestatu" color="#ffcccc" meeting="false" start="2022-11-02" duration="2" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="false">
+                <task id="22" name="2.2.1 Gai tematikoak finkatu" color="#ffcccc" meeting="false" start="2022-11-02" duration="2" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="23" name="2.3 Ekitaldietako rolak banatu" color="#ff66ff" meeting="false" start="2022-11-08" duration="2" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ERTAINA (larritasun txikia, probabilitate altua)
+Arriskuaren sailkapena: baliabide pertsonalekin erlazionatutakoa
+Arriskuaren definizioa: rol eta arduren deskonpentsazioa
+]]>
+                </notes>
+            </task>
+            <task id="24" name="2.4 Sarien hornitzailea ziurtatu" color="#ff66ff" meeting="false" start="2022-11-05" duration="3" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ERTAINA (larritasun izugarria, probabilitate oso baxua)
+Arriskuaren sailkapena: finantzekin lotutakoa
+Arriskuaren definizioa: kontratu-hutsa
+]]>
+                </notes>
+            </task>
+            <task id="25" name="2.5 GANTT burutu" color="#ff66ff" meeting="false" start="2022-11-05" duration="3" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: BAXUA (larritasun txikia, probabilitate baxua)
+Arriskuaren sailkapena: baliabide pertsonalekin erlazionatutakoa
+Arriskuaren definizioa: programaren funtzionamendu eza
+]]>
+                </notes>
                 <depend id="52" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="26" name="2.6 Arazoen kudeaketa plana prestatu" color="#ff66ff" meeting="false" start="2022-11-06" duration="4" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
-            <task id="52" name="2.7 Project plan burutu" color="#ff33ff" meeting="false" start="2022-11-07" duration="4" complete="0" thirdDate="2022-10-14" thirdDate-constraint="0" expand="true"/>
-            <task id="27" name="2.8 Irakasleen onarpena lortu" color="#ff66ff" meeting="false" start="2022-11-08" duration="2" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
-            <task id="28" name="2.9 Planteatu finantziazio ekonomikoa lortzeko teknikak" color="#ff66ff" meeting="false" start="2022-11-08" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="2.6 Arazoen kudeaketa plana prestatu" color="#ff66ff" meeting="false" start="2022-11-13" duration="4" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
+            <task id="52" name="2.7 Project plan burutu" color="#ff33ff" meeting="false" start="2022-11-08" duration="4" complete="0" thirdDate="2022-10-14" thirdDate-constraint="0" expand="true">
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="2.7 - Project plan entregatu" color="#8cb6ce" meeting="true" start="2022-11-12" duration="0" complete="0" thirdDate="2022-10-10" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="2.8 Irakasleen onarpena lortu" color="#ff66ff" meeting="false" start="2022-11-15" duration="2" complete="0" thirdDate="2022-11-07" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="2.9 Planteatu finantziazio ekonomikoa lortzeko teknikak" color="#ff66ff" meeting="false" start="2022-11-15" duration="3" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="18" name="3 Planifikazioa" color="#ff6666" meeting="false" start="2022-11-14" duration="30" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+        <task id="18" name="3 Planifikazioa" color="#ff6666" meeting="false" start="2022-11-30" duration="30" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="false">
             <depend id="19" type="2" difference="0" hardness="Strong"/>
-            <task id="30" name="3.1 Data erabaki" color="#ff6666" meeting="false" start="2022-11-14" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="30" name="3.1 Data erabaki" color="#ff6666" meeting="false" start="2022-11-30" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="34" type="2" difference="0" hardness="Strong"/>
                 <depend id="38" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="31" name="3.2 Materiala prestatu" color="#ffcc00" meeting="false" start="2022-11-14" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="31" name="3.2 Materiala prestatu" color="#ffcc00" meeting="false" start="2022-11-30" duration="4" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
                 <depend id="39" type="2" difference="0" hardness="Strong"/>
-                <task id="32" name="3.2.1 Triviako galderak txarteletan antolatu" color="#ffcc00" meeting="false" start="2022-11-14" duration="3" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
-                <task id="33" name="3.2.2 Scape-roomeko probak garatu" color="#ffcc00" meeting="false" start="2022-11-14" duration="4" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
+                <task id="32" name="3.2.1 Triviako galderak txarteletan antolatu" color="#ffcc00" meeting="false" start="2022-11-30" duration="3" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
+                <task id="33" name="3.2.2 Scape-roomeko probak garatu" color="#ffcc00" meeting="false" start="2022-11-30" duration="4" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="34" name="3.3 Publizitatea egin" color="#ffcc00" meeting="false" start="2022-11-16" duration="21" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
+            <task id="34" name="3.3 Publizitatea egin" color="#ffcc00" meeting="false" start="2022-12-02" duration="21" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="false">
                 <depend id="37" type="2" difference="0" hardness="Strong"/>
-                <task id="35" name="3.3.1 Inguruko jendea parte hartzera animatu" color="#ffcc00" meeting="false" start="2022-11-16" duration="21" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
-                <task id="36" name="3.3.2 Kartela egin" color="#ffcc00" meeting="false" start="2022-11-16" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
+                <task id="35" name="3.3.1 Inguruko jendea parte hartzera animatu" color="#ffcc00" meeting="false" start="2022-12-02" duration="21" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="36" name="3.3.2 Kartela egin" color="#ffcc00" meeting="false" start="2022-12-02" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="37" name="3.4 Talde inskripzioa egin" color="#ff6666" meeting="false" start="2022-12-09" duration="7" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
-            <task id="38" name="3.5 Finantziazio teknikak martzan jarri" color="#ff6666" meeting="false" start="2022-11-16" duration="5" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
-            <task id="39" name="3.6 Simulazio bat egin" color="#ffcc00" meeting="false" start="2022-11-18" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true">
+            <task id="37" name="3.4 Talde inskripzioa egin" color="#ff6666" meeting="false" start="2022-12-27" duration="7" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ALTUA (larritasun handia, probabilitate ertaina)
+Arriskuaren sailkapena: baliabide pertsonalekin erlazionatutakoa
+Arriskuaren definizioa: parte-hartze falta
+]]>
+                </notes>
+            </task>
+            <task id="38" name="3.5 Finantziazio teknikak martxan jarri" color="#ff6666" meeting="false" start="2022-12-02" duration="5" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ERTAINA (larritasun handia, probabilitate baxua)
+Arriskuaren sailkapena: finantzekin lotutakoa
+Arriskuaren definizioa: finantziazio falta]]>
+                </notes>
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="54" name="3.5 - Finantziazioa lortu" color="#8cb6ce" meeting="true" start="2022-12-09" duration="0" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+            <task id="39" name="3.6 Simulazio bat egin" color="#ffcc00" meeting="false" start="2022-12-04" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true">
                 <depend id="41" type="2" difference="0" hardness="Strong"/>
-                <task id="40" name="3.6.1 Simulazioan agertutako arazoak konpondu" color="#ffcc00" meeting="false" start="2022-11-18" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
+                <task id="40" name="3.6.1 Simulazioan agertutako arazoak konpondu" color="#ffcc00" meeting="false" start="2022-12-04" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[ARRISKUA: ALTUA (larritasun txikia, probabilitate oso altua)
+Arriskuaren sailkapena: jarduerarekin berarekin lotutakoa
+Arriskuaren definizioa: material falta, denbora falta, zailtasun gehiegizkoa]]>
+                    </notes>
+                    <depend id="55" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="55" name="3.6 - Simulazioa eta arazoen kudeaketa burutu" color="#8cb6ce" meeting="true" start="2022-12-07" duration="0" complete="0" thirdDate="2022-12-04" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="41" name="3.7 Feedback txostena planifikatu" color="#ff6666" meeting="false" start="2022-11-20" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
+            <task id="41" name="3.7 Feedback txostena planifikatu" color="#ff6666" meeting="false" start="2022-12-07" duration="2" complete="0" thirdDate="2022-11-10" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="19" name="4 Exekuzioa" color="#99ff99" meeting="false" start="2022-12-16" duration="16" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="true">
-            <task id="42" name="4.1 Ekitaldia egingo den lekua atondu" color="#99ff99" meeting="false" start="2022-12-16" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="false">
+        <task id="19" name="4 Exekuzioa" color="#99ff99" meeting="false" start="2023-02-13" duration="16" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="false">
+            <task id="42" name="4.1 Ekitaldia egingo den lekua atondu" color="#99ff99" meeting="false" start="2023-02-13" duration="2" complete="0" thirdDate="2022-10-31" thirdDate-constraint="0" expand="false">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" name="4.1 - Ekitaldirako lekua prest" color="#8cb6ce" meeting="true" start="2023-02-15" duration="0" complete="0" thirdDate="2023-01-04" thirdDate-constraint="0" expand="true"/>
+            <task id="43" name="4.2 Jendeari txandak eman" color="#99ff99" meeting="false" start="2023-02-13" duration="2" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ALTUA (larritasun handia, probabilitate ertaina)
+Arriskuaren sailkapena: baliabide pertsonalekin erlazionatutakoa
+Arriskuaren definizioa: parte hartze gutxiegi edo gehiegi
+]]>
+                </notes>
                 <depend id="44" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="43" name="4.2 Jendeari txandak eman" color="#99ff99" meeting="false" start="2022-12-16" duration="2" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
-                <depend id="44" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="44" name="4.3 Ekitaldia egin" color="#009900" meeting="false" start="2022-12-18" duration="1" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+            <task id="44" name="4.3 Ekitaldia egin" color="#009900" meeting="false" start="2023-02-15" duration="1" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
                 <depend id="47" type="2" difference="0" hardness="Strong"/>
                 <depend id="49" type="2" difference="0" hardness="Strong"/>
-                <task id="45" name="4.3 Trivialeko jokaldiak egin" color="#009900" meeting="false" start="2022-12-18" duration="1" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
-                    <task id="46" name="4.3.1 Scape-roomeko txandak egin" color="#009900" meeting="false" start="2022-12-18" duration="1" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true"/>
+                <task id="45" name="4.3.1 Trivialeko jokaldiak egin" color="#009900" meeting="false" start="2023-02-15" duration="1" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[ARRISKUA: ALTUA (larritasun handia, probabilitate ertaina)
+Arriskuaren sailkapena: jarduerarekin berarekin lotutakoa
+Arriskuaren definizioa: denbora gutxiegi edo gehiegi, materiala bukatu]]>
+                    </notes>
+                    <depend id="57" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="46" name="4.3.2 Scape-roomeko txandak egin" color="#009900" meeting="false" start="2023-02-15" duration="1" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[ARRISKUA: ALTUA (larritasun handia, probabilitate ertaina)
+Arriskuaren sailkapena: jarduerarekin berarekin lotutakoa
+Arriskuaren definizioa: denbora gutxiegi edo gehiegi, materiala bukatu]]>
+                    </notes>
+                    <depend id="57" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="47" name="4.4 Feedback txostena banatu" color="#99ff99" meeting="false" start="2022-12-19" duration="6" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+            <task id="57" name="4.3 - Ekitaldiko sarien banaketa egin" color="#8cb6ce" meeting="true" start="2023-02-16" duration="0" complete="0" thirdDate="2023-01-30" thirdDate-constraint="1" expand="true"/>
+            <task id="47" name="4.4 Feedback txostena banatu" color="#99ff99" meeting="false" start="2023-02-16" duration="6" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
                 <depend id="48" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="48" name="4.5 Post-mortem bat egin" color="#99ff99" meeting="false" start="2022-12-27" duration="7" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true"/>
-            <task id="49" name="4.6 Benetan xahutu duguna identifikatu" color="#99ff99" meeting="false" start="2022-12-19" duration="4" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="4.5 Post-mortem bat egin" color="#99ff99" meeting="false" start="2023-02-22" duration="7" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="49" name="4.6 Benetan xahutu duguna identifikatu" color="#99ff99" meeting="false" start="2023-02-16" duration="4" complete="0" thirdDate="2022-11-11" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[ARRISKUA: ERTAINA (larritasun izugarria, probabilitate oso baxua)
+Arriskuaren sailkapena: finantzekin lotutakoa
+Arriskuaren definizioa: aurrekontutik pasa]]>
+                </notes>
+            </task>
+            <task id="59" name="4.5 - Ebaluazioa burutu" color="#8cb6ce" meeting="true" start="2023-03-01" duration="0" complete="0" thirdDate="2023-01-24" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources>
@@ -239,8 +329,8 @@
         <allocation task-id="2" resource-id="10" function="3" responsible="false" load="15.0"/>
         <allocation task-id="51" resource-id="10" function="2" responsible="false" load="15.0"/>
         <allocation task-id="4" resource-id="10" function="1" responsible="true" load="35.0"/>
-        <allocation task-id="5" resource-id="10" function="1" responsible="true" load="35.0"/>
-        <allocation task-id="6" resource-id="10" function="1" responsible="true" load="35.0"/>
+        <allocation task-id="5" resource-id="10" function="3" responsible="false" load="15.0"/>
+        <allocation task-id="6" resource-id="10" function="1" responsible="true" load="25.0"/>
         <allocation task-id="7" resource-id="10" function="5" responsible="false" load="10.0"/>
         <allocation task-id="10" resource-id="10" function="2" responsible="false" load="15.0"/>
         <allocation task-id="9" resource-id="10" function="2" responsible="false" load="15.0"/>
@@ -251,7 +341,7 @@
         <allocation task-id="15" resource-id="10" function="5" responsible="false" load="10.0"/>
         <allocation task-id="20" resource-id="10" function="4" responsible="false" load="25.0"/>
         <allocation task-id="22" resource-id="10" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="23" resource-id="10" function="1" responsible="true" load="35.0"/>
+        <allocation task-id="23" resource-id="10" function="5" responsible="false" load="10.0"/>
         <allocation task-id="24" resource-id="10" function="4" responsible="false" load="25.0"/>
         <allocation task-id="25" resource-id="10" function="2" responsible="false" load="15.0"/>
         <allocation task-id="26" resource-id="10" function="1" responsible="true" load="35.0"/>
@@ -276,8 +366,8 @@
         <allocation task-id="2" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="51" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="4" resource-id="11" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="5" resource-id="11" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="6" resource-id="11" function="3" responsible="false" load="15.0"/>
+        <allocation task-id="5" resource-id="11" function="1" responsible="true" load="35.0"/>
+        <allocation task-id="6" resource-id="11" function="5" responsible="false" load="15.0"/>
         <allocation task-id="7" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="10" resource-id="11" function="1" responsible="true" load="35.0"/>
         <allocation task-id="9" resource-id="11" function="3" responsible="false" load="15.0"/>
@@ -288,7 +378,7 @@
         <allocation task-id="15" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="20" resource-id="11" function="2" responsible="false" load="15.0"/>
         <allocation task-id="22" resource-id="11" function="1" responsible="true" load="35.0"/>
-        <allocation task-id="23" resource-id="11" function="3" responsible="false" load="15.0"/>
+        <allocation task-id="23" resource-id="11" function="3" responsible="false" load="20.0"/>
         <allocation task-id="24" resource-id="11" function="5" responsible="false" load="10.0"/>
         <allocation task-id="25" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="26" resource-id="11" function="5" responsible="false" load="10.0"/>
@@ -298,7 +388,7 @@
         <allocation task-id="30" resource-id="11" function="4" responsible="false" load="25.0"/>
         <allocation task-id="32" resource-id="11" function="5" responsible="false" load="10.0"/>
         <allocation task-id="33" resource-id="11" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="36" resource-id="11" function="1" responsible="true" load="35.0"/>
+        <allocation task-id="36" resource-id="11" function="1" responsible="true" load="30.0"/>
         <allocation task-id="37" resource-id="11" function="3" responsible="false" load="15.0"/>
         <allocation task-id="38" resource-id="11" function="5" responsible="false" load="10.0"/>
         <allocation task-id="40" resource-id="11" function="2" responsible="false" load="15.0"/>
@@ -314,7 +404,7 @@
         <allocation task-id="51" resource-id="12" function="1" responsible="true" load="35.0"/>
         <allocation task-id="4" resource-id="12" function="5" responsible="false" load="10.0"/>
         <allocation task-id="5" resource-id="12" function="5" responsible="false" load="10.0"/>
-        <allocation task-id="6" resource-id="12" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="6" resource-id="12" function="4" responsible="false" load="25.0"/>
         <allocation task-id="7" resource-id="12" function="1" responsible="true" load="35.0"/>
         <allocation task-id="10" resource-id="12" function="4" responsible="false" load="25.0"/>
         <allocation task-id="9" resource-id="12" function="4" responsible="false" load="25.0"/>
@@ -324,7 +414,7 @@
         <allocation task-id="15" resource-id="12" function="2" responsible="false" load="15.0"/>
         <allocation task-id="20" resource-id="12" function="3" responsible="false" load="15.0"/>
         <allocation task-id="22" resource-id="12" function="5" responsible="false" load="10.0"/>
-        <allocation task-id="23" resource-id="12" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="23" resource-id="12" function="1" responsible="true" load="30.0"/>
         <allocation task-id="24" resource-id="12" function="3" responsible="false" load="15.0"/>
         <allocation task-id="25" resource-id="12" function="1" responsible="true" load="35.0"/>
         <allocation task-id="26" resource-id="12" function="3" responsible="false" load="15.0"/>
@@ -335,7 +425,7 @@
         <allocation task-id="32" resource-id="12" function="3" responsible="false" load="15.0"/>
         <allocation task-id="33" resource-id="12" function="2" responsible="false" load="15.0"/>
         <allocation task-id="35" resource-id="12" function="3" responsible="false" load="15.0"/>
-        <allocation task-id="36" resource-id="12" function="3" responsible="false" load="15.0"/>
+        <allocation task-id="36" resource-id="12" function="3" responsible="false" load="20.0"/>
         <allocation task-id="37" resource-id="12" function="4" responsible="false" load="25.0"/>
         <allocation task-id="38" resource-id="12" function="1" responsible="true" load="35.0"/>
         <allocation task-id="40" resource-id="12" function="5" responsible="false" load="10.0"/>
@@ -350,7 +440,7 @@
         <allocation task-id="51" resource-id="14" function="3" responsible="false" load="15.0"/>
         <allocation task-id="4" resource-id="14" function="4" responsible="false" load="25.0"/>
         <allocation task-id="5" resource-id="14" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="6" resource-id="14" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="6" resource-id="14" function="3" responsible="false" load="20.0"/>
         <allocation task-id="7" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="10" resource-id="14" function="Default:0" responsible="false" load="15.0"/>
         <allocation task-id="9" resource-id="14" function="5" responsible="false" load="10.0"/>
@@ -361,7 +451,7 @@
         <allocation task-id="15" resource-id="14" function="1" responsible="true" load="35.0"/>
         <allocation task-id="20" resource-id="14" function="5" responsible="false" load="10.0"/>
         <allocation task-id="22" resource-id="14" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="23" resource-id="14" function="2" responsible="false" load="15.0"/>
+        <allocation task-id="23" resource-id="14" function="2" responsible="false" load="20.0"/>
         <allocation task-id="24" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="25" resource-id="14" function="3" responsible="false" load="15.0"/>
         <allocation task-id="26" resource-id="14" function="2" responsible="false" load="15.0"/>
@@ -372,7 +462,7 @@
         <allocation task-id="32" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="33" resource-id="14" function="4" responsible="false" load="25.0"/>
         <allocation task-id="35" resource-id="14" function="4" responsible="false" load="25.0"/>
-        <allocation task-id="36" resource-id="14" function="4" responsible="false" load="25.0"/>
+        <allocation task-id="36" resource-id="14" function="4" responsible="false" load="20.0"/>
         <allocation task-id="37" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="38" resource-id="14" function="2" responsible="false" load="15.0"/>
         <allocation task-id="40" resource-id="14" function="1" responsible="true" load="35.0"/>
@@ -398,7 +488,7 @@
         <allocation task-id="15" resource-id="13" function="3" responsible="false" load="15.0"/>
         <allocation task-id="20" resource-id="13" function="1" responsible="true" load="35.0"/>
         <allocation task-id="22" resource-id="13" function="2" responsible="false" load="15.0"/>
-        <allocation task-id="23" resource-id="13" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="23" resource-id="13" function="4" responsible="false" load="20.0"/>
         <allocation task-id="24" resource-id="13" function="1" responsible="true" load="35.0"/>
         <allocation task-id="25" resource-id="13" function="5" responsible="false" load="10.0"/>
         <allocation task-id="26" resource-id="13" function="4" responsible="false" load="25.0"/>
@@ -409,7 +499,7 @@
         <allocation task-id="32" resource-id="13" function="4" responsible="false" load="25.0"/>
         <allocation task-id="33" resource-id="13" function="1" responsible="true" load="35.0"/>
         <allocation task-id="35" resource-id="13" function="5" responsible="false" load="10.0"/>
-        <allocation task-id="36" resource-id="13" function="5" responsible="false" load="10.0"/>
+        <allocation task-id="36" resource-id="13" function="5" responsible="false" load="15.0"/>
         <allocation task-id="37" resource-id="13" function="1" responsible="true" load="35.0"/>
         <allocation task-id="38" resource-id="13" function="3" responsible="false" load="15.0"/>
         <allocation task-id="40" resource-id="13" function="4" responsible="false" load="25.0"/>
